@@ -91,7 +91,7 @@ const SignIn = () => {
 
           <div class="flex flex-col items-center justify-between">
             <Link
-              to="/"
+              to="/verification"
               class="w-full text-center px-5 py-3 m-3 ml-3 text-sm font-medium text-white bg-primary rounded-lg"
             >
               <p>Sign Up</p>
