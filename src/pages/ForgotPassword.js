@@ -5,7 +5,7 @@ import NavBar from "../components/NavBar";
 const ForgotPassword = () => {
   return (
     <>
-      <NavBar text="Log In"/>
+      <NavBar text="Log In" />
 
       <div class="h-screen py-20 px-3">
         <div class="container  mx-auto">
@@ -43,11 +43,11 @@ const ForgotPassword = () => {
                     >
                       Send Link
                     </Link>
-                   
                   </div>
                 </form>
-                  <span className="font-extrabold text-gray-900">Forgot your email?</span>
-               
+                <span className="font-extrabold text-gray-900">
+                  Forgot your email?
+                </span>
               </div>
             </div>
           </div>

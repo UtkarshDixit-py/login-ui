@@ -10,7 +10,6 @@ import mainCard from "../assets/mainCard.png";
 import subCard1 from "../assets/subCard1.png";
 import subCard2 from "../assets/subCard2.png";
 
-
 const Illustration = () => {
   return (
     <div className="flex justify-center relative w-2/5 h-auto bg-primary my-5 mr-5">

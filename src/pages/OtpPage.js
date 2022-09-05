@@ -14,7 +14,9 @@ const otpPage = () => {
               <div class="bg-white h-72 py-3 rounded text-center border shadow-md ">
                 <h1 class="text-2xl font-bold">Verify your Email</h1>
                 <div class="flex flex-col mt-4">
-                  <span className="text-slate-600">We have sent code to your email</span>
+                  <span className="text-slate-600">
+                    We have sent code to your email
+                  </span>
                   <span class="font-bold">alesiaka******@mail.com</span>
                 </div>
 
@@ -55,16 +57,18 @@ const otpPage = () => {
                 </div>
 
                 <div className="m-5">
-                <Link     
-                  to="/"             
-                  className="px-5 text-center py-3  text-sm font-medium text-white bg-primary rounded-lg"
-                >
-                  Sign in
-                </Link>
+                  <Link
+                    to="/"
+                    className="px-5 text-center py-3  text-sm font-medium text-white bg-primary rounded-lg"
+                  >
+                    Sign in
+                  </Link>
                 </div>
-                
-                  <p className="text-slate-600">Resend code in <span className="font-extrabold text-gray-900">59:00</span></p>
-               
+
+                <p className="text-slate-600">
+                  Resend code in{" "}
+                  <span className="font-extrabold text-gray-900">59:00</span>
+                </p>
               </div>
             </div>
           </div>

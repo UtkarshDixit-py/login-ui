@@ -1,16 +1,15 @@
-import React from 'react'
-import SignUp from '../components/Signup'
+import React from "react";
+import SignUp from "../components/Signup";
 
-import Illustration2 from "../components/Illustration2"
-
+import Illustration2 from "../components/Illustration2";
 
 const SignupPage = () => {
   return (
-    <div className="flex h-screen" >
+    <div className="flex h-screen">
       <Illustration2 />
       <SignUp />
-</div>
-  )
-}
+    </div>
+  );
+};
 
-export default SignupPage
+export default SignupPage;

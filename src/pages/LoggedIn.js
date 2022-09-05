@@ -18,17 +18,14 @@ const LoggedIn = () => {
                   </span>
                 </div>
 
-                
                 <div class="m-4">
-                <Link
-                  to="/"
+                  <Link
+                    to="/"
                     class="w-78 px-5 py-3 text-center  ml-3 text-sm font-medium text-white bg-primary rounded-lg"
                   >
                     Logout
                   </Link>
                 </div>
-                  
-               
               </div>
             </div>
           </div>
